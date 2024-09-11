@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Sevillana&display=swap');
+
+:root{
+  --green: hsl(179, 86%, 35%);
+  --blue: #005AE0;
+  --grey: #9C9C9C;
+}
+
+body{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+header{
+  justify-content: space-between;
+  background-color: var(--green);
+  color: white;
+  justify-content: space-around;
+  height: 40px;
+}
+
+.mail, 
+.facebook, .location,
+.instagram, .twitter{
+  transition: all 1s;
+}
+
+header i{
+  color: white;
+  padding-right: 10px;
+  font-size: 20px;
+}
+
+.mail *:hover, 
+.facebook:hover,
+.location:hover,
+.instagram:hover, .twitter:hover{
+  color: var(--blue);
+  cursor: pointer;
+}
+
+header, .header, .mail, .socials, .contacts,
+.facebook, .instagram, .twitter, .location{
+  display: flex;
+}
+
+
+.socials div{
+  padding-right: 25px;
+}
+
+.mail,.contacts, .socials,
+.facebook, .twitter, .instagram, .location{
+  justify-content: center;
+  align-items: center;
+}
+
+.contacts{
+  min-width: 200px;
+}
+
+@media (max-width:780px) {
+  .socials, .contacts{
+    display: none;
+  }
+}
+
+@media (max-width:970px) {
+  .socials{
+    display: none;
+  }
+}
