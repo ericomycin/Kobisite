@@ -19,6 +19,7 @@ header{
   color: white;
   justify-content: space-around;
   height: 40px;
+  font-weight: bold;
 }
 
 .mail, 

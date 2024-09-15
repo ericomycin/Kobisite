@@ -128,14 +128,26 @@ Side menu */
   font-size: 2rem;
   color: var(--green);
 }
-.harmburger-menu:hover{
-  cursor: pointer;
-  border: 2px solid red;
-}
 
 @media (max-width:780px) {
   .harmburger-menu{
     display: flex;
   }
+  .menu{
+    max-height: 65px;
+  }
 }
 
+
+div a{
+  color: var(--blue);
+  font-weight: 600;
+  transition: all 0.3s ease;
+  font-size: 1rem;
+}
+
+div a:hover{
+  padding-bottom: 20px;
+  color: var(--green);
+  border-bottom: 5px solid var(--green);
+}

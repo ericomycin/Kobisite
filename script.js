@@ -9,3 +9,8 @@ harmbuger.addEventListener("click", () =>{
 closeButton.addEventListener("click", () =>{
   sideBar.classList.remove("active")
 })
+
+document.addEventListener('click', function (event) {
+if (!harmbuger.contains(event.target) && !sideBar.contains(event.target)) {
+sideBar.classList.remove("active")
+}})
