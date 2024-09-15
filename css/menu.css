@@ -9,6 +9,14 @@
   justify-content: space-around;
   align-items: center;
   box-shadow: 2px 2px 10px var(--grey);
+  max-height: 60px;
+}
+
+nav{
+  position: sticky;
+  top: 0;
+  z-index: 9999;
+  background-color: white;
 }
 
 .menu a{
@@ -17,7 +25,7 @@
 }
 
 .logo img{
-  max-width: 15rem;
+  max-width: 12rem;
 }
 
 
@@ -46,7 +54,7 @@
   .logo img{
     max-width: 15rem;
   }
-  .menu div a{
+  .menu div a:not(.kobi-logo){
     display: none;
   }
 }
@@ -54,7 +62,7 @@
   font-family: "Caveat", cursive;
   font-optical-sizing: auto;
   color: var(--green);
-  font-size: 1.5rem;
+  font-size: 1.2rem;
   text-transform: capitalize;
   text-align: center;
   padding-top: -50px;
@@ -125,16 +133,28 @@ Side menu */
 }
 
 .harmburger-menu i{
-  font-size: 2rem;
   color: var(--green);
+  width: auto;
 }
 
 @media (max-width:780px) {
   .harmburger-menu{
     display: flex;
+    max-height: 2rem;
+  }
+  .harmburger-menu i{
+   font-size: 1.3rem;
+  }
+  .logo img{
+    max-height: 4.5rem;
   }
   .menu{
-    max-height: 65px;
+    max-height: 45px;
+  }
+  .nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
 }
 
@@ -142,12 +162,12 @@ Side menu */
 div a{
   color: var(--blue);
   font-weight: 600;
-  transition: all 0.3s ease;
-  font-size: 1rem;
+  transition: all 0.2s ease;
+  font-size: 0.9rem;
 }
 
-div a:hover{
-  padding-bottom: 20px;
+div a:not(.kobi-logo):hover{
+  padding-bottom: 15px;
   color: var(--green);
-  border-bottom: 5px solid var(--green);
+  border-bottom: 3px solid var(--green);
 }
