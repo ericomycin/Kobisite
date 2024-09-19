@@ -73,4 +73,7 @@ header, .header, .mail, .socials, .contacts,
   .socials{
     display: none;
   }
+  .header{
+    font-size: 1rem;
+  }
 }

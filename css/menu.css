@@ -146,10 +146,10 @@ Side menu */
    font-size: 1.3rem;
   }
   .logo img{
-    max-height: 4.5rem;
+    max-height: 5rem;
   }
   .menu{
-    max-height: 45px;
+    max-height: 55px;
   }
   .nav{
     display: flex;

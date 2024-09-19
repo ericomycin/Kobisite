@@ -1,0 +1,46 @@
+:root{
+  --green: hsl(179, 86%, 35%);
+  --blue: rgb(83, 199, 241);
+  --grey: #9C9C9C;
+}
+
+.services-head{
+  display: flex;
+  margin: 20px 10px;
+}
+
+.services-head *{
+  flex: 1;
+}
+
+.dispensing, .counselling, .screening-services{
+  /* border: 2px solid green; */
+  height: 300px;
+  box-shadow: 2px 2px 10px grey;
+  margin-right: 20px;
+}
+
+.services-title{
+  color: var(--blue);
+  text-align: center;
+  font-size: 2.5rem;
+}
+
+@media (max-width: 780px) {
+  .services-head{
+    display: block;
+  }
+}
+
+/* Kobi Quote */
+.kobi-quote{
+  background-color: var(--grey);
+  border: 2px solid transparent;
+  margin: 10px;
+  text-align: center;
+  font-size: 4rem;
+}
+
+.kobi-quote span{
+  color: white;
+}

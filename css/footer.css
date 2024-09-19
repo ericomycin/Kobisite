@@ -1,7 +1,32 @@
-body{
-  background-image: url("syringe.png");
-  /* background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-position: center;
-  background-size: cover; */
+footer{
+  display: flex;
+  justify-content: space-around;
+  color: white;
+  height: 350px;
+  background: rgb(5,54,51);
+  background: linear-gradient(98deg, rgba(5,54,51,1) 2%, rgba(12,166,154,1) 49%, rgba(2,56,67,1) 98%);
 }
+
+footer *{
+  flex: 1;
+}
+
+.company{
+  margin-left: 20px;
+}
+
+.company img{
+  margin-bottom: -30px;
+  filter: brightness(40000);
+}
+
+footer img{
+  max-width: 5rem;
+}
+@media (max-width:780px) {
+  footer {
+    flex-wrap: wrap;
+  }
+}
+
+/* Chat with us */
