@@ -21,6 +21,8 @@
 @media (max-width: 850px) {
   .beauty-products{
    height: 120px;
+   justify-content: space-between;
+   justify-items: space-between;
   }
 }
 
