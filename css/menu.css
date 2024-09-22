@@ -1,9 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&display=swap');
-:root{
-  --green: hsl(179, 86%, 35%);
-  --blue: rgb(67, 195, 242, 1);
-  --grey: #9C9C9C;
-}
+@import "variables.css";
 .menu{
   display: flex;
   justify-content: space-around;
@@ -47,7 +43,7 @@ nav{
     display: none;
   }
   .menu{
-    max-height: 7%;
+    max-height: 60px;
   }
 }
 @media (max-width: 780px) {
@@ -160,14 +156,15 @@ Side menu */
 
 
 div a{
-  color: var(--blue);
-  font-weight: 600;
+  color: var(--green);
+  font-weight: 500;
   transition: all 0.2s ease;
   font-size: 0.9rem;
 }
 
 div a:not(.kobi-logo):hover{
   padding-bottom: 15px;
-  color: var(--green);
-  border-bottom: 3px solid var(--green);
+  color: var(--blue);
+  border-bottom: 3px solid var(--blue);
+  font-weight: 600;
 }

@@ -1,12 +1,8 @@
-:root{
-  --green: hsl(179, 86%, 35%);
-  --blue: rgb(83, 199, 241);
-  --grey: #9C9C9C;
-}
+@import "variables.css";
 
 .services-head{
   display: flex;
-  margin: 20px 10px;
+  margin: 10px;
 }
 
 .services-head *{
@@ -21,9 +17,10 @@
 }
 
 .services-title{
-  color: var(--blue);
+  color: var(--green);
   text-align: center;
-  font-size: 2.5rem;
+  font-size: var(--title);
+  margin-top: 80px;
 }
 
 @media (max-width: 780px) {
@@ -34,13 +31,31 @@
 
 /* Kobi Quote */
 .kobi-quote{
-  background-color: var(--grey);
-  border: 2px solid transparent;
-  margin: 10px;
+  background-color: var(--green);
+  margin-top: 80px;
   text-align: center;
   font-size: 4rem;
+  box-shadow: 3px 3px 10px grey;
+  height: 250px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media (max-width: 950px) {
+  .kobi-quote{
+    font-size: 2.2rem;
+    height: 150px;
+  }
 }
 
 .kobi-quote span{
   color: white;
 }
+
+.dispensing img{
+    max-width: 100%;
+    max-height: 100%;
+    display: block;
+}
+

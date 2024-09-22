@@ -1,0 +1,15 @@
+/* iframe */
+.our-location{
+  width: 100%;
+  margin-top: 80px;
+}
+
+.our-location iframe{
+  width: 100%;
+}
+
+.our-location p{
+  text-align: center;
+  color: var(--green);
+  font-size: var(--title);
+}

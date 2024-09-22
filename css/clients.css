@@ -1,0 +1,43 @@
+@import "variables.css";
+
+.clients{
+  display: flex;
+}
+
+.client{
+  border: 2px solid red;
+  margin: 20px;
+}
+
+.clients *{
+  flex: 1;
+}
+
+
+/* 
+Partners */
+
+.partners{
+  display: flex;
+  justify-content: center;
+
+}
+
+@media (max-width: 780px) {
+  .clients{
+    display: block;
+  }
+
+  .client{
+    height: 200px;
+  }
+}
+
+.our-partners p{
+  text-align: center;
+  color: var(--green);
+  font-size: var(--title);
+  margin-top: 80px;
+}
+
+
