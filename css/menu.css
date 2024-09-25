@@ -73,7 +73,7 @@ Side menu */
   top: 10px;
   position: fixed;
   right: -500px;
-  background-color: var(--blue);
+  background-color: var(--green);
   box-shadow: 5px 5px 10px var(--grey);
   border-radius: 15px;
   min-width: 300px;

@@ -10,7 +10,7 @@ body{
 
 header{
   justify-content: space-between;
-  background-color: var(--blue);
+  background-color: var(--green);
   color: whitesmoke;
   justify-content: space-around;
   height: 40px;
@@ -34,7 +34,7 @@ header i{
 .facebook:hover,
 .location:hover,
 .instagram:hover, .twitter:hover{
-  color: var(--green);
+  color: black;
   cursor: pointer;
 }
 
