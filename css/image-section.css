@@ -11,7 +11,7 @@
  width: 100%;
  height: 100%;
 }
-
+/* 
 .image::after {
   content: 'Your health your wealth';
   color: white;
@@ -25,9 +25,11 @@
   width: 100%;
   height: 100%;
   background-color: #33cccc4d; 
+} */
+
+.image svg{
+  z-index: 5;
 }
-
-
 
 @media (max-width: 850px) {
   .image{
